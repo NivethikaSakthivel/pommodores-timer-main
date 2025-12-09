@@ -1,0 +1,35 @@
+/* const red = '#f54e4e';
+const green = '#4aec8c';
+const blue = '#2b78e4' */
+
+.slider {
+  height: 40px;
+  border: 2px solid #f54e4e;
+  border-radius: 20px;
+
+}
+
+.thumb {
+  background-color: #f54e4e ;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.slider.green {
+  border-color: #4aec8c;
+}
+
+.slider.green .thumb {
+  background-color: #4aec8c;
+
+  
+}
+.slider.blue {
+  border-color: #2b78e4;
+}
+
+.slider.blue .thumb {
+  background-color: #2b78e4;
+}
